@@ -23,8 +23,8 @@ def calcular_calorias_diarias(tmb, nivel_atividade):
 
 
 def main():
-    peso = float(input("Digite seu peso (kg): "))
-    altura = float(input("Digite sua altura (m): "))
+    peso = float(input("Digite seu peso (kg): ").replace(",","."))
+    altura = float(input("Digite sua altura (m): ").replace(",","."))
     idade = int(input("Digite sua idade: "))
     sexo = input("Digite seu sexo (masculino/feminino): ")
     nivel_atividade = input(
